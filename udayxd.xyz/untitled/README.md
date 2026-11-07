@@ -46,7 +46,7 @@ I love exploring, learning, and pushing boundaries . Whether it’s uncovering s
 {% column width="33.33333333333333%" %}
 💻 GitHub
 
-🌍 Website&#x20;
+🌍 Website
 
 👾 HackTheBox
 
@@ -54,15 +54,12 @@ I love exploring, learning, and pushing boundaries . Whether it’s uncovering s
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
-[https://github.com/ExtremeUday](https://github.com/ExtremeUday)
+[https://github.com/Udayveer17](https://github.com/Udayveer17)
 
-[https://www.udayxd.xyz/](https://www.udayxd.xyz/)
+[https://www.udayxd.tech/](https://www.udayxd.xyz/)
 
 [https://app.hackthebox.com/profile/2437150](https://app.hackthebox.com/profile/2437150)
 
-[https://www.linkedin.com/in/uday-veer-8002a5360/](https://www.linkedin.com/in/uday-veer-8002a5360/)
+[https://www.linkedin.com/in/udayveer-bansal-8002a5360/](https://www.linkedin.com/in/udayveer-bansal-8002a5360/)
 {% endcolumn %}
 {% endcolumns %}
-
-
-
