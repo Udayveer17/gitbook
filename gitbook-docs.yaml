@@ -1,0 +1,47 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: udayxd.xyz
+  structure:
+    - type: section
+      key: section-1
+      title: About
+      path: udayxd.xyz
+      description: ""
+      icon: image-portrait
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: About
+          path: untitled
+          default: true
+          content:
+            directory: ./udayxd.xyz/untitled
+    - type: section
+      key: section-2
+      title: Notes
+      path: notes
+      description: "these are my notes you can have a look to it "
+      icon: notebook
+      children:
+        - type: space
+          key: space-2
+          title: Notes
+          path: about
+          default: true
+          content:
+            directory: ./notes/about
+    - type: section
+      key: section-3
+      title: Write-Up - Blogs
+      path: write-up-blogs
+      description: ""
+      icon: location-dot
+      children:
+        - type: space
+          key: space-3
+          title: Write-Up - Blogs
+          path: untitled
+          default: true
+          content:
+            directory: ./write-up-blogs/untitled
