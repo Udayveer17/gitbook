@@ -37,7 +37,7 @@ There are two main types:
 
 **Host-based SPNs**: These are automatically created for computer accounts. For example, when you create a new computer called WINDOWS1 in the domain, it automatically gets SPNs like `HOST/WINDOWS1` and `HOST/WINDOWS1.testlab.local`. These are linked to the machine account (WINDOWS1$).
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 **Arbitrary SPNs**: These are manually registered SPNs, usually tied to user accounts. For example, a service account managing several MSSQL instances might have SPNs like `MSSQLSvc/SQL.domain.com:1433` registered in the user's servicePrincipalName attribute.
 

@@ -77,7 +77,7 @@ Normally, when you log into a Windows domain, you provide a password. The Domain
 * **Domain Controller** decrypts it with the client's **public key** (stored in AD).
 * If it works, the DC sends back a **Ticket Granting Ticket (TGT)**.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Key Trust vs. Certificate Trust
 

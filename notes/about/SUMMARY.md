@@ -34,6 +34,7 @@
 * [APC Injection and Early Bird APC Injection](maldev/apc-injection-and-early-bird-apc-injection.md)
 * [Thread Hijacking Local Thread Creation](maldev/thread-hijacking-local-thread-creation.md)
 * [PEB Walking & Custom GetModuleHandle](maldev/peb-walking-and-custom-getmodulehandle.md)
+* [Return Address Spoofing](maldev/return-address-spoofing.md)
 
 ## Windows
 

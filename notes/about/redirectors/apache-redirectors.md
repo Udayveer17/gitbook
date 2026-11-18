@@ -225,7 +225,7 @@ Run it, passing your domain as an argument:
 sudo bash domain-setup.sh yourdomain.com
 ```
 
-This script creates the web root and log directories, writes out a virtual host config, waits until the domain is actually resolving on port 80, then hands things off to Certbot to request and install a real Let's Encrypt certificate  complete with HSTS and automatic HTTP-to-HTTPS redirection.
+This script creates the web root and log directories, writes out a virtual host config, waits until the domain is actually resolving on port 80, then hands things off to Certbot to request and install a real Let's Encrypt certificate complete with HSTS and automatic HTTP-to-HTTPS redirection.
 
 Once Certbot finishes, hit your domain over HTTPS and check the certificate in your browser it should show as valid and trusted, issued by Let's Encrypt.
 
@@ -237,7 +237,7 @@ At this point we have a clean, hardened Apache install, sitting on a domain we c
 
 ### Step 4: C2 Server Setup
 
-As we have installed every thing now let's go to our Apache config again and set few things up <br>
+As we have installed every thing now let's go to our Apache config again and set few things up<br>
 
 * First Let's Setup the proxy that when ever a request come it goes to our c2 server for that we'll use ProxyPass and ProxyPassReverse (file location of config): `/etc/apache2/sites-available/domainname-le-ssl.conf`
 
@@ -266,19 +266,19 @@ Now Let's head to our C2 and test the redirector setup, we can now test our new 
 
 <figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
-and now let's create a https listener&#x20;
+and now let's create a https listener
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-and now as of we have create the listener now let's go and visit our web site and see if we get any web logs in our C2&#x20;
+and now as of we have create the listener now let's go and visit our web site and see if we get any web logs in our C2
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
-as we can see our server is working fine now let's try to get our own beacon&#x20;
+as we can see our server is working fine now let's try to get our own beacon
 
 <figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
-and now the movement of truth&#x20;
+and now the movement of truth
 
 <figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 

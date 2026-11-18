@@ -70,7 +70,7 @@ Then, we can use [secretsdump.py](https://github.com/SecureAuthCorp/impacket/blo
 secretsdump.py -sam sam.save -system system.save LOCAL
 ```
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 So to summarize, here’s the verification process.
 
@@ -98,6 +98,3 @@ When a computer or server is part of a domain, it has its own **machine account*
 The **Netlogon service** uses that shared secret to create a **Secure Channel** between the computer and the Domain Controller.
 
 Over this secure, encrypted channel, the server can safely send authentication data (like NTLM challenges/responses or Kerberos tickets) to the DC — without anyone being able to intercept or tamper with it.
-
-
-
