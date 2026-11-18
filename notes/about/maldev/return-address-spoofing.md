@@ -1,3 +1,7 @@
+---
+icon: circle-up-left
+---
+
 # Return Address Spoofing
 
 > This article is heavily influenced by https://hulkops.gitbook.io/blog/red-team/x64-return-address-spoofing
